@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "nunjucks": "^3.2.3",
+    "yargs": "^17.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}

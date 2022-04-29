@@ -1,0 +1,3 @@
+{% for item in fixtureList %}
+export { {{item.fixtureName}}, PropsForNew{{item.fixtureName}} } from "./{{item.fileName}}";
+{% endfor %}
